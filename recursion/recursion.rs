@@ -3,7 +3,7 @@ fn countdown(number: i32) {
        println!("Blast Off!");
       return;
     }
-    println!(number);
+    println!("{}", number);
     countdown(number - 1)
 }
 
