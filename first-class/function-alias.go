@@ -30,4 +30,11 @@ func main() {
 	ints := []int{1, 2, 3}
 	
 	fmt.Println(filter(ints, largerThanTwo))
+
+	// in-line functions are functions in variables.
+	inlineFunction := func(i int) bool {return i > 2}
+	filter(ints, inlineFunction)
+
+	// anonymous functions have no names
+	filter([]int{1,2,3}, func(i int) bool {return i > 2})
 }
