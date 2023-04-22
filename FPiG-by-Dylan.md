@@ -22,3 +22,12 @@ FP is:
 - declarative
 - recursive.
 
+## Type aliases
+Type aliases:
+* improves communication intent.
+* helps error messages sound clearer.
+* allows you to attach functions to them (like age below).
+
+We can create type aliases for functions too, to achieve the same reasons as above.
+
+
